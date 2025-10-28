@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color:#8B3EDE ;
+}
+div.topo{
+    width: 100%;
+    height: 120px;
+    background-color: #221156;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.topo div.logoHorizontal{
+    height: 120px;
+    margin-left: 2%;
+    /*background-color:pink;*/
+}
+div.topo div.logoHorizontal img{
+   margin-top: 10px;
+}
+div.topo div.formTopo{
+    /*background-color: green;*/
+    width: 600px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+div.topo div.formTopo input{
+    margin:15px 10px;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+div.topo div.formTopo button.entrar{
+    background-color: #8B3EDE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+div.topo div.bandeirinhas{
+    margin-right: 15px;
+    /*background-color: red;*/
+    width: 150px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+div.topo div.bandeirinhas img{
+    margin-right: 10px;
+}
+div.container{
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+}
+div.container div.recuperarSenha{
+    background-color: #7badfc;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+div.container div.recuperarSenha h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+footer{
+    color: white;
+    background-color: #221156;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+footer a{
+    color : #8B3EDE;
+    
+}
