@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="../img/favicon-32x32.png">
     <title>Drove Rota</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../css/home.css">
 
 </head>
 
@@ -18,26 +20,26 @@
     <!--Adicionar um botão aqui. (Menu)-->
 
     <div class="container text-center mt-5">
-        <a href="/"><img src="img/Logo horizontal(fundo tranparente).png" class="img-fluid rounded" title="Logo" alt="Logo"></a>
+        <a href="/"><img src="img/Logo horizontal(fundo tranparente).png" class="img-fluid rounded" title="Logo" alt="Logo" id="logo" width="300px"></a>
 
 
 
     </div><!--Fim Container -->
 
-    <nav class="navbar d-flex navbar-expand">
-        <ul class="navbar-nav">
+    <nav class="navbar d-flex navbar-expand fs-5">
+        <ul class="navbar-nav d-flex justify-content-between w-100">
             <li class="nav-item">
-                <a class="nav-link" href="login">Cliente</a>
+                <a class="nav-link link-light" href="login">Cliente</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#sobre">Sobre</a>
+                <a class="nav-link link-light" href="/#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login">Motorista</a>
+                <a class="nav-link link-light" href="login">Motorista</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Ajuda</a>
-                <ul class="dropdown-menu">
+                <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown">Ajuda</a>
+                <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="/help">Central de ajuda</a></li>
                     <li><a class="dropdown-item" href="/#question">Perguntas frequentes</a></li>
 

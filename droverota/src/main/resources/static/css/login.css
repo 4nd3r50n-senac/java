@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-image:linear-gradient(to top, #8B3EDE,#221156);/* O background-image é usado para adicionar o gradiente ("linear-gradient") ao invés de uma cor sólida, "to top" é a direção do gradiente, neste caso, a cor mais escura está em cima mas pode ser usado em outras direções támbem: to bottom, to right, to left. */
+    background: #8B3EDE;
+    background: linear-gradient(360deg,rgba(139, 62, 222, 1) 0%, rgba(34, 17, 86, 1) 100%);
     justify-content: flex-start;
 }
 div.bandeirinhas{
